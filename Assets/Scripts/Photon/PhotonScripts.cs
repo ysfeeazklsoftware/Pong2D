@@ -10,9 +10,6 @@ public class PhotonScripts : MonoBehaviourPunCallbacks
     void Start()
     {
         PhotonNetwork.ConnectUsingSettings();//Server'a baðlanýyor
-
-
-
     }
 
     public override void OnConnectedToMaster()

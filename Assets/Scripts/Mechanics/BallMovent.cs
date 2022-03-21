@@ -14,6 +14,7 @@ public class BallMovent : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody2D>();
         photonView = GetComponent<PhotonView>();
+        rigidbody.velocity = new Vector2(5f, 5f);
     }
 
 
